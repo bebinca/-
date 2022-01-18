@@ -18,7 +18,7 @@ void bst(int i, int j, int dir, int val) {
     if (flag == 1) return;
     bst(i, j-1, 3, val);
     if (flag == 1) return;
-     bst(i, j+1, 1, val);
+    bst(i, j+1, 1, val);
     if (flag == 1) return;
     bst(i-1, j, 2, val);
     if (flag == 1) return;
